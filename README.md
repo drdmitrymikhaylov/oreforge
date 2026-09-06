@@ -94,6 +94,14 @@ GPU context.
 Working application, in active development. Not open source: the Tecto-PINN solver is the
 subject of pending provisional patent applications. Source available for review under NDA.
 
+## Related
+
+- [**making-pinns-work**](https://github.com/drdmitrymikhaylov/making-pinns-work) — a course
+  on why physics-informed neural networks fail to converge, with runnable notebooks. The
+  method behind the solver above, taught openly.
+- [**cough-spectrograms**](https://github.com/drdmitrymikhaylov/cough-spectrograms) — the
+  same measurement discipline applied to acoustics rather than mechanics.
+
 ## Contact
 
 **Prof. Dr. Dmitry Mikhaylov** — Abu Dhabi, UAE

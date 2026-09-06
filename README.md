@@ -74,13 +74,6 @@ Three layers, one direction of dependency: `core` knows nothing about Qt or torc
 knows nothing about the UI, `ui` composes both. The geology can be scripted headlessly and
 the solver can be swapped or benchmarked without touching the interface.
 
-**Physics.** The network maps normalised position to a displacement vector. The loss is the
-residual of the Navier–Cauchy equilibrium equations for a linear elastic solid under a body
-force, evaluated by automatic differentiation at collocation points sampled through the
-volume, plus a Dirichlet condition on the fixed base. Stress is recovered from the
-displacement gradients and reduced to a von Mises scalar for display. Young's modulus,
-Poisson ratio and body force are set in the interface and take effect on the next run.
-
 **Threading.** Training runs on a `QThread` so the interface stays live. Two details that
 cost real debugging time: torch's intra-op thread pool has to be pinned before any worker
 starts, or it deadlocks when first initialised off the main thread; and the

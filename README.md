@@ -9,6 +9,9 @@ interactive 3D workspace.
 
 ![OreForge main window](docs/images/01_orebody.png)
 
+<sub>Synthetic ore body coloured by grade above a 1.0 g/t cutoff, with twelve exploration
+drillholes sampling the same field.</sub>
+
 ---
 
 > ### Source code is not public
@@ -32,13 +35,6 @@ interactive 3D workspace.
 | **Results overlay** | Any PINN field — von Mises stress, displacement magnitude, vertical displacement — is written back onto the block model and rendered in the same 3D scene as the geology. |
 
 ## Screenshots
-
-### Ore body and drillholes
-
-Synthetic ore body coloured by grade above a 1.0 g/t cutoff, with twelve exploration
-drillholes sampling the same field.
-
-![Ore body and drillholes](docs/images/01_orebody.png)
 
 ### Faulted and folded
 
